@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    width: 100%;
+    background-color: #28282d;
+}
+.download {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #03accf;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.download img{
+    width: 30%;
+    margin-top: 2%;
+}
+.download p{
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.resources{
+    width: 20%;
+    color: #03accf;
+    font-size: 1.2vw;
+    margin-top: 2%;
+
+}
+.resources label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+}
+.resources p:hover{
+    color: #E65098;
+}
+.legal p:hover{
+    color: #E65098;
+
+}
+.legal label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+}
+.legal{
+    width: 20%;
+    color: #03accf;
+    font-size: 1.2vw;
+    margin-top: 2%;
+
+}
+.contact p:hover {
+    color: #E65098;
+}
+.contact label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+}
+.contact{
+    width: 20%;
+    color: #03accf;
+    margin-top: 2%;
+    font-size: 1.2vw;
+}

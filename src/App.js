@@ -1,40 +1,33 @@
-
-import './App.css';
-import Narbar from './components/Narbar/Narbar';
-import Carts from './components/carts/Carts';
-import Form from './components/form/Form';
-import Newfim from './components/newfim/Newfim';
-import axios from 'axios';
-import React, { useState, useEffect } from 'react';
+import "./App.css";
+import axios from "axios";
+import { Routes, Route, Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import Login from "./components/login/Login";
+import Home from "./pages/Homepage/Home";
+import Sign from "./components/sign/Sign";
+import Resetemail from "./components/resetemail/Resetemail";
+import FromChiTiet from "./components/formchitiet/FormChiTiet";
 function App() {
-  const [dataCart, setDataCart] = useState([])
-  const [tudoCart, setTudoCart] = useState([])
+  const [dataCart, setDataCart] = useState([]);
   useEffect(() => {
     axios
       .get("http://localhost:3000/listproduct")
       .then((dataListProduct) => setDataCart(dataListProduct.data))
       .catch((err) => console.log(err));
   }, []);
-  useEffect(() => {
-    axios
-      .get("http://localhost:3000/listproduct")
-      .then((dataListProduct) => setTudoCart(dataListProduct.data))
-      .catch((err) => console.log(err));
-  }, []);
-  return (  
+  return (
     <>
-  <Narbar/>
-  <Carts
-   dataCart={dataCart}/>
-   <Newfim
-  tudoCart={tudoCart}
-  />
-  <Form/>
+      <Routes>
+        <Route path='/' element={<Home dataCart={dataCart} />} />
+        <Route path='/detail' element={<FromChiTiet />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/sign' element={<Sign />} />
+        <Route path='/resetemail' element={<Resetemail />} />
+      </Routes>
     </>
   );
 }
 
 export default App;
 
-<>
-</>
+<></>;

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tongcongan{
+    width: 100%;
+    background-color: #2b2b31;
+    padding-bottom: 5%;
+}
+.bocanhsat{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.phocongan{
+    width: 50%;
+    display: flex;
+}
+.phocongan img{
+    width: 30%;
+    /* height: 250px; */
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.tulenh{
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+.tulenh p{
+    color: #E65098;
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+.tulenh label{
+    font-size: 1.5vw;
+    color: white;
+}
+.saovang img{
+    width: 5%;
+    height: 30px;
+    position: absolute;
+    /* top: 20%; */
+    left: 1%;
+    transform: translate(-50%,-50%);
+}
+.saovang{
+    display: flex;
+    position: relative;
+}
+.saovang p{
+    margin-left: 5%;
+    margin-top: 2%;
+    border: 1px solid rgba(255,255,255,0.16);
+    color: rgb(250, 245, 245);
+    font-size: 1.1vw;
+}
+.itmi{
+    width: 100%;
+}
+.itmi p{
+    width: 100%;
+    font-size: 1.1vw;
+    color: white;
+}

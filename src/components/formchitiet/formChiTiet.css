@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.chitiettong {
+  width: 100%;
+  height: 600px;
+  background-color: #28282d;
+  background-position: center center;
+  opacity: 0.9;
+  background-repeat: none;
+  border-bottom: 3px solid #ff5860;
+  background-size: cover;
+  padding-top: 6%;
+}
+.anthor {
+  width: 81%;
+  margin: auto;
+}
+.anthor p {
+  color: white;
+  font-size: 2.5vw;
+  font-weight: 300;
+}
+.famylitong {
+  width: 81%;
+  display: flex;
+  margin: auto;
+}
+.famylitong .contong {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+.famylitong .viode {
+  width: 50%;
+  margin-top: 2%;
+}
+.famylitong .viode video {
+  width: 100%;
+}
+.genrena {
+  color: white;
+  width: 60%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.genrena p {
+  margin-bottom: 0px;
+}
+.imagera {
+  width: 40%;
+}
+.imagera img {
+  width: 100%;
+  margin-top: 10%;
+  border-radius: 5px;
+}
+.hdphim {
+  display: flex;
+  margin-top: 2%;
+  gap: 10px;
+}
+.hdphim p {
+  margin-top: 3%;
+}
+.hdphim label {
+  margin-top: 3%;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 1vw;
+  height: 25px;
+}
+.genreact {
+  display: flex;
+  gap: 5px;
+}
+.genreact p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1vw;
+}
+.genreact label {
+  font-size: 1.1vw;
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+  margin-right: 7px;
+  opacity: 0.8;
+}
+.release {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1vw;
+}
+.runing {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1vw;
+}
+.country {
+  display: flex;
+  gap: 5px;
+}
+.country p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1vw;
+}
+.country label {
+  font-size: 1.1vw;
+  position: relative;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+  margin-right: 7px;
+  opacity: 0.8;
+}
+.long {
+  width: 90%;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1vw;
+}
+@media only screen and (max-width: 600px) {
+    
+  }
+ 
+

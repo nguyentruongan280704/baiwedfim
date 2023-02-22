@@ -22,7 +22,8 @@
   background-color: #de5089;
   border: none;
   border-radius: 10px;
-  margin-left: 38%;
+  /* margin-left: 38%; */
+  font-size: 1vw;
   width: 80%;
 }
 .dropdown-menu {
@@ -41,7 +42,7 @@
 }
 .btn-search {
   width: 10%;
-  height: 40px;
+  padding: 1% 1% 1% 1%;
   background-color: #de5061;
   color: white;
   border: none;
@@ -59,7 +60,6 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  font-size: 1.5vw;
 }
 .navbar-name {
   width: 100%;
@@ -74,10 +74,15 @@
 .bienmat {
   display: none;
 }
-@media screen and(max-width: 600px){
-    .dropdown-toggle{
-        display: none;
-    }
-}
-    
 
+@media screen and (max-width: 600px) {
+  .navbar-name .anNgu {
+    display: none;
+  }
+  .andeptrai{
+    display: none;
+  }
+  .col-3{
+    width: 50%;
+  }
+}

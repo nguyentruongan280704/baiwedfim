@@ -18,7 +18,7 @@ function Narbar() {
                 className="logo-flixgo"
               />
             </div>
-            <div className="col-2 tudutai">
+            <div className="col-2 tudutai anNgu">
               {/* <li class="nav-item dropdown"> */ }
               <a
                 class="nav-link dropdown-toggle"
@@ -43,7 +43,7 @@ function Narbar() {
               </ul>
               {/* </li> */ }
             </div>
-            <div className="col-2">
+            <div className="col-2 anNgu">
               {/* <li class="nav-item dropdown"> */ }
               <a
                 class="nav-link dropdown-toggle"
@@ -78,11 +78,11 @@ function Narbar() {
               </ul>
               {/* </li> */ }
             </div>
-            <div className="col-2">
+            <div className="col-2 anNgu">
               <span>PRICING PLAN</span>{ " " }
             </div>
             {/* search button */ }
-            <div className="col-1">
+            <div className="col-1 andeptrai">
               <i class="fa-solid fa-magnifying-glass" onClick={ handleSearchButton }></i>
             </div>
 

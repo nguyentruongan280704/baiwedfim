@@ -19,12 +19,17 @@
 .btn-navbar {
   color: white;
   padding: 10% 10% 10% 10%;
-  background-color: #de5089;
+  background-color: #f3e4ea;
   border: none;
   border-radius: 10px;
-  /* margin-left: 38%; */
-  font-size: 1vw;
   width: 80%;
+}
+.btn-navbar a{
+  font-size: 1.1vw;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #f1ebeb;
 }
 .dropdown-menu {
   background-color: #2d2c32;

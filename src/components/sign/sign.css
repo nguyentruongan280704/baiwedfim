@@ -70,6 +70,7 @@
   .proactiti label {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
+    font-size: 1.2vw;
   }
   .proactiti{
     display: flex;
@@ -83,6 +84,7 @@
     -webkit-text-fill-color: transparent;
     color: #ff5860;
     opacity: 0.8;
+    font-size: 1.2vw;
   }
   .signin {
     width: 100%;

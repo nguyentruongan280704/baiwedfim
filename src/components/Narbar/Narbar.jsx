@@ -87,7 +87,7 @@ function Narbar() {
             </div>
 
             <div className="col-2 ">
-              <button className="btn-navbar">SIGN IN</button>
+              <button className="btn-navbar"><a href="/login">SIGN IN</a></button>
             </div>
           </div>
 

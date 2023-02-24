@@ -5,6 +5,7 @@ function Carts(props) {
     let {
         dataCart,
     } = props;
+
     return (
         <>
             <div className="container-new">
@@ -19,10 +20,10 @@ function Carts(props) {
                 </div>
 
                 <div className="tongbo">
-                    { dataCart.map((e, i) => (
+                    { dataCart.map((e) => (
                         <div class="card" style={ { width: "250px" } }>
                             <div class="carousel-item active">
-                                <img src={ e.image } class="d-block w-100 an" alt="..." />
+                            <a href="/detail"><img src={ e.image } class="d-block w-100 an" alt="..." /></a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">{ e.name }</h5>
